@@ -6,7 +6,7 @@ sys.path.append('methods/')
 import os
 import numpy as np
 from scipy.optimize import linear_sum_assignment
-from pn_loader import *
+from ..pn_loader import *
 
 bceloss = nn.BCEWithLogitsLoss(reduction='none')
 celoss = nn.CrossEntropyLoss()

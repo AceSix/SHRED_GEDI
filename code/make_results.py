@@ -1,3 +1,12 @@
+# -*- coding:utf-8 -*-
+###################################################################
+###   @FilePath: \SHRED_GEDI\code\make_results.py
+###   @Author: AceSix
+###   @Date: 2022-10-27 12:35:11
+###   @LastEditors: AceSix
+###   @LastEditTime: 2022-10-27 12:42:19
+###   @Copyright (C) 2022 Brown U. All rights reserved.
+###################################################################
 from eval_method import eval_method, save_data
 
 import utils
@@ -39,9 +48,9 @@ def main(args):
 if __name__ == '__main__':
     with torch.no_grad():
         arg_list = [
-            ('-mt', '--method', None,  str),        
-            ('-en', '--name', None, str),
-            ('-svn', '--save_name', None, str),
+            ('-mt', '--method', 'srd',  str),        
+            ('-en', '--name', 'GEDI_direct', str),
+            ('-svn', '--save_name', 'GEDI_direct_1', str),
             ('-mx', '--max', None, int),
             ('-indc', '--in_domain_cats', None, str),
             ('-otdc', '--out_domain_cats', None, str),

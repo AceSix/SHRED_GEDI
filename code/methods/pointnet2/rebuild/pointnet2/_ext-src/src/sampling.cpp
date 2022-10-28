@@ -1,5 +1,17 @@
+/*
+ * @FilePath: \SHRED_GEDI\code\methods\pointnet2\rebuild\pointnet2\_ext-src\src\sampling.cpp
+ * @Author: AceSix
+ * @Date: 2022-10-27 12:35:11
+ * @LastEditors: AceSix
+ * @LastEditTime: 2022-10-27 16:13:14
+ * Copyright (C) 2022 Brown U. All rights reserved.
+ */
 #include "sampling.h"
 #include "utils.h"
+
+#ifndef AT_CHECK
+#define AT_CHECK TORCH_CHECK 
+#endif
 
 void gather_points_kernel_wrapper(int b, int c, int n, int npoints,
                                   const float *points, const int *idx,

@@ -11,7 +11,7 @@ import gc
 import random
 import time
 from methods.merge_net.model import load_model
-import region_ops as ro
+from . import region_ops as ro
 import json
 
 PRESAMP = None

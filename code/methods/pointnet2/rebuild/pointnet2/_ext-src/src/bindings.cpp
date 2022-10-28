@@ -1,7 +1,19 @@
+/*
+ * @FilePath: \SHRED_GEDI\code\methods\pointnet2\rebuild\pointnet2\_ext-src\src\bindings.cpp
+ * @Author: AceSix
+ * @Date: 2022-10-27 12:35:11
+ * @LastEditors: AceSix
+ * @LastEditTime: 2022-10-27 16:13:19
+ * Copyright (C) 2022 Brown U. All rights reserved.
+ */
 #include "ball_query.h"
 #include "group_points.h"
 #include "interpolate.h"
 #include "sampling.h"
+
+#ifndef AT_CHECK
+#define AT_CHECK TORCH_CHECK 
+#endif
 
 PYBIND11_MODULE(TORCH_EXTENSION_NAME, m) {
   m.def("gather_points", &gather_points);

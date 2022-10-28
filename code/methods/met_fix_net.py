@@ -9,7 +9,7 @@ from tqdm import tqdm
 import math
 from methods.fix_net.model import load_model
 import gc
-import region_ops as ro
+from .region_ops import fix_create_train_example, create_fix_eval_example
 
 PRESAMP = None
 
@@ -93,7 +93,7 @@ class Dataset:
                 
             for s in shape_regions.cpu().unique().tolist():
                                                                                     
-                ex_samps, ex_labels = ro.fix_create_train_example(
+                ex_samps, ex_labels = fix_create_train_example(
                     shape_pts,
                     shape_normals,
                     shape_regions,
@@ -260,7 +260,7 @@ COUNT = [0]
 
 def local_fix(net, args, samps, input_labels):
 
-    ex_samps, query_inds, key_pts = ro.create_fix_eval_example(
+    ex_samps, query_inds, key_pts = create_fix_eval_example(
         samps, input_labels, args.fn_context, args.fn_part_num_points, args.fn_cte_mode
     )        
     

@@ -1,3 +1,12 @@
+# -*- coding:utf-8 -*-
+###################################################################
+###   @FilePath: \SHRED_GEDI\code\shred_mesh.py
+###   @Author: AceSix
+###   @Date: 2022-10-27 12:35:11
+###   @LastEditors: AceSix
+###   @LastEditTime: 2022-10-27 16:42:18
+###   @Copyright (C) 2022 Brown U. All rights reserved.
+###################################################################
 import torch
 import sys, os
 from methods.srd import SRD
@@ -31,4 +40,7 @@ def shred_mesh(mesh_name, out_name):
         
     
 if __name__ == '__main__':
-    shred_mesh(sys.argv[1], sys.argv[2])
+    # shred_mesh(sys.argv[1], sys.argv[2])
+    shred_mesh('G:/Brown/Courses/CSCI1230-22F/Scenefiles/mesh/teapot.obj', './code/results/teapot_out')
+
+    

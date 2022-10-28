@@ -1,5 +1,17 @@
+/*
+ * @FilePath: \SHRED_GEDI\code\methods\pointnet2\rebuild\pointnet2\_ext-src\src\ball_query.cpp
+ * @Author: AceSix
+ * @Date: 2022-10-27 12:35:11
+ * @LastEditors: AceSix
+ * @LastEditTime: 2022-10-27 16:07:06
+ * Copyright (C) 2022 Brown U. All rights reserved.
+ */
 #include "ball_query.h"
 #include "utils.h"
+
+#ifndef AT_CHECK
+#define AT_CHECK TORCH_CHECK 
+#endif
 
 void query_ball_point_kernel_wrapper(int b, int n, int m, float radius,
                                      int nsample, const float *new_xyz,

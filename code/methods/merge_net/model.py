@@ -5,7 +5,7 @@ import sys
 sys.path.append('methods/')
 import os
 import numpy as np
-from pn_loader import *
+from ..pn_loader import *
 
 bceloss = nn.BCEWithLogitsLoss(reduction = 'mean')
 

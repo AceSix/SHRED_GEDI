@@ -1,6 +1,10 @@
 #include "interpolate.h"
 #include "utils.h"
 
+#ifndef AT_CHECK
+#define AT_CHECK TORCH_CHECK 
+#endif
+
 void three_nn_kernel_wrapper(int b, int n, int m, const float *unknown,
                              const float *known, float *dist2, int *idx);
 void three_interpolate_kernel_wrapper(int b, int c, int m, int n,

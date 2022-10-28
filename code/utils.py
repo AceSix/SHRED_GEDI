@@ -133,6 +133,7 @@ def sample_surface(faces, vs, count):
     return samples[0], keep_face_index.squeeze(), normals
 
 
+
 def eval_sample(regions, part_ids, dummy_labels, rd_seed=42, num_points = NUM_EVAL_POINTS):
     random.seed(rd_seed)
     np.random.seed(rd_seed)

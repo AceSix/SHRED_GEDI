@@ -5,7 +5,8 @@ import os
 import sys
 sys.path.append('methods/')
 
-import pointnet2.pointnet2_utils as pointnet2_utils
+from .pointnet2 import pointnet2_utils
+# import .pointnet2.pointnet2_utils as pointnet2_utils
 
 
 class _BNBase(nn.Sequential):

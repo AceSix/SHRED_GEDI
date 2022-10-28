@@ -1,3 +1,12 @@
+# -*- coding:utf-8 -*-
+###################################################################
+###   @FilePath: \SHRED_GEDI\code\methods\init_split.py
+###   @Author: AceSix
+###   @Date: 2022-10-27 12:35:11
+###   @LastEditors: AceSix
+###   @LastEditTime: 2022-10-27 14:20:02
+###   @Copyright (C) 2022 Brown U. All rights reserved.
+###################################################################
 import torch
 import utils
 from utils import device
@@ -49,11 +58,31 @@ def split_mesh_fps(args, mesh):
     return samps, utils.clean_regions(clusters)
 
 
+def split_points_fps(args, mesh):
+        
+    psamps, _, _ = utils.sample_surface(
+        mesh[1], mesh[0].unsqueeze(0), args.num_points
+    )
+                
+    c_inds = fps(psamps.unsqueeze(0), args.init_num_blocks)[0].long()
+    centers = psamps[c_inds]        
+
+    dist = (psamps.view(-1,1,3) - centers.view(1,-1,3)).norm(dim=2)
+    clusters = dist.argmin(dim=1).to(device)
+    
+    return psamps, utils.clean_regions(clusters)
+
+
+
 def init_split(input_type, args, data):
 
     if input_type == 'mesh':        
         if args.init_split_mode == 'fps':
             return split_mesh_fps(args, data)
+
+    if input_type == 'points':        
+        if args.init_split_mode == 'fps':
+            return split_points_fps(args, data)
     
     elif input_type == 'regions':
         if args.init_split_mode == 'fps':

@@ -1,10 +1,10 @@
 import sys, os, torch
 sys.path.append('methods')
 import utils
-from init_split import init_split
-import met_split_net as msn
-import met_fix_net as mfn
-import met_merge_net as mmn
+from .init_split import init_split
+from .met_split_net import split_net_load, model_split
+from .met_fix_net import fix_net_load, model_fix
+from .met_merge_net import merge_net_load, inf_merge
 import math
 from copy import deepcopy
 
@@ -26,13 +26,13 @@ class SRD:
             ('-inb', '--init_num_blocks', 64, int),            
             
             # SPLIT NET PARAMS
-            ('-sn_pth', '--sn_path', 'def_models/split_net.pt', str),
+            ('-sn_pth', '--sn_path', 'code/def_models/split_net.pt', str),
             ('-sn_nppb', '--sn_num_points_per_block', 512, int),            
             ('-sn_nc', '--sn_num_clusters', 10, int),
             ('-mm', '--match_mode', 'hung_os', str), 
             
             # FIX NET PARAMS
-            ('-fn_pth', '--fn_path', 'def_models/fix_net.pt', str),            
+            ('-fn_pth', '--fn_path', 'C:/Brown/Research/GEDI/SHRED_GEDI/code/def_models/fix_net.pt', str),            
             ('-fn_ctx', '--fn_context', 0.1, float),
             ('-fn_pnp', '--fn_part_num_points', 2048, int),
             ('-fn_cte_mode', '--fn_cte_mode', 'bal', str),
@@ -47,7 +47,7 @@ class SRD:
 
             ('-mn_ctx', '--mn_context', 0.1, float),
             ('-mn_pnp', '--mn_part_num_points', 512, int),
-            ('-mn_pth', '--mn_path', 'def_models/merge_net.pt', str),
+            ('-mn_pth', '--mn_path', 'C:/Brown/Research/GEDI/SHRED_GEDI/code/def_models/merge_net.pt', str),
             ('-mn_ubn', '--mn_use_bn', 'y', str),
             ('-mn_mt', '--mn_merge_thresh', 0.5, float),
             
@@ -84,7 +84,7 @@ class SRD:
         else:
             print(f"Loading SN : {args.sn_path}")
             args.use_bn = args.sn_use_bn
-            self.split_net = msn.split_net_load(args)
+            self.split_net = split_net_load(args)
             
         if args.fn_path is None and args.fn_path.lower() != 'none':
             print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
@@ -93,7 +93,7 @@ class SRD:
             self.fix_net = None
         else:
             print(f"Loading FN : {args.fn_path}")
-            self.fix_net = mfn.fix_net_load(args)
+            self.fix_net = fix_net_load(args)
 
         self.merge_net = None
         
@@ -105,7 +105,7 @@ class SRD:
         if args.mn_path is not None and args.mn_path.lower() != 'none':
             print(f"Loading Merge Net : {args.mn_path}")
             args.use_bn = args.mn_use_bn
-            self.merge_net = mmn.merge_net_load(args)
+            self.merge_net = merge_net_load(args)
 
                     
     def split_step(self):
@@ -114,7 +114,7 @@ class SRD:
 
         for _ in range(self.args.sn_num_rounds):
             self.update_step(
-                msn.model_split(self.split_net, self.args, self.samps, self.regions)
+                model_split(self.split_net, self.args, self.samps, self.regions)
             )
 
     def fix_step(self):
@@ -123,7 +123,7 @@ class SRD:
 
         for _ in range(self.args.fn_num_rounds):
             self.update_step(
-                mfn.model_fix(self.fix_net, self.args, self.samps, self.regions)
+                model_fix(self.fix_net, self.args, self.samps, self.regions)
             )
 
     def merge_step(self):
@@ -132,7 +132,7 @@ class SRD:
             return
 
         for _ in range(self.args.merge_num_rounds):
-            regions, made_merge = mmn.inf_merge(
+            regions, made_merge = inf_merge(
                 self.merge_net,
                 self.samps[:,:3],
                 self.samps[:,3:],                
@@ -153,6 +153,7 @@ class SRD:
 
         with torch.no_grad():
             
+            # self.samps, regions = init_split('points', self.args, data.mesh)
             self.samps, regions = init_split('mesh', self.args, data.mesh)
 
             self.update_step(regions)
