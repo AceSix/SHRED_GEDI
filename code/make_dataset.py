@@ -6,10 +6,8 @@ from copy import deepcopy
 from tqdm import tqdm
 import json as JSON
 
-USER = None
-assert USER is not None, 'please set USER variable to point to partNet dataset'
 
-DATA_DIR = f"/home/{USER}/data/partnet/data_v0/"
+DATA_DIR = f"G:/GEDI_data/data_3d/"
 
 VERBOSE = True
 MAX_SHAPES = None
@@ -34,8 +32,11 @@ def newParseParts(folder, json, m2p, pre=''):
 
         
 def parseData(folder, category):
-    with open(DATA_DIR+folder+"/result_after_merging.json") as f:
-        json = ast.literal_eval(f.readline())[0]
+    try:
+        with open(DATA_DIR+folder+"/result_after_merging.json") as f:
+            json = ast.literal_eval(f.readline())[0]
+    except:
+        return []
 
     folder_cat = JSON.load(open(DATA_DIR+folder+'/meta.json'))['model_cat'].lower()
         
@@ -61,7 +62,8 @@ def parseData(folder, category):
     return parts
 
 def writeData(data, out_folder, shape):
-    os.system(f'mkdir {out_folder}/{shape} > /dev/null 2>&1')
+    # os.system(f'mkdir {out_folder}/{shape} > /dev/null 2>&1')
+    os.mkdir(f'{out_folder}/{shape}')
     j = {}
     j['regions'] = [f'{DATA_DIR}/{shape}/objs/{region}.obj' for region,_,_ in data]
     j['sem_labels'] = [sem_label for _,sem_label,_ in data]
@@ -105,8 +107,8 @@ def format_data(out_folder, category):
                 
     
 if __name__ == '__main__':
-    out_dir = sys.argv[1]
-    cat = sys.argv[2]
+    out_dir = 'G:/GEDI_data/preprocessed_3d'
+    cat = 'chair'
 
     format_data(out_dir, cat)
 

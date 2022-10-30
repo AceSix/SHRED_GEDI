@@ -92,7 +92,7 @@ class MergeNet(nn.Module):
     def __init__(self, use_bn, DP = 0.0):
         super(MergeNet, self).__init__()
 
-        self.enc_net = PNPP_ShapeEnc(5, use_bn)
+        self.enc_net = PNPP_ShapeEnc(2, use_bn)
         self.head_net = DMLP(1024, 256, 64, 1, DP)
 
             

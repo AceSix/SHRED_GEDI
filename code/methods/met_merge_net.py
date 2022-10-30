@@ -215,7 +215,7 @@ class Dataset:
 
             self.iter_num += 1
             
-            yield b_samps, b_labels
+            yield torch.cat([b_samps[..., :3], b_samps[..., -2:]], -1), b_labels
         
                                
 def model_train_batch(batch, net, opt):
@@ -388,15 +388,17 @@ class MERGE_NET:
 
         arg_list = [
             ('-o', '--outpath', 'methods/merge_net/model_output', str),
-            ('-en', '--exp_name', None, str),
+            ('-en', '--exp_name', 'xyz', str),
+            # ('-snp', '--shape_num_points', 1000, int),
             ('-snp', '--shape_num_points', 100000, int),
             ('-mn_pnp', '--mn_part_num_points', 512, int),
             ('-nte', '--num_to_eval', 150, int),
             
             ('-rd', '--rd_seed', 42, int),
-            ('-b', '--batch_size', 128, int),
+            ('-b', '--batch_size', 8, int),
 
             ('-prp', '--print_per', 1000, int),
+            # ('-prp', '--print_per', 50, int),
             
             ('-nspi', '--num_samples_per_iter', 10, int),
 

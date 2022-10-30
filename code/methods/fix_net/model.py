@@ -116,7 +116,7 @@ class FixNet(nn.Module):
     def __init__(self, DP = 0.0):
         super(FixNet, self).__init__()
         
-        self.pn_enc = PNPP_PointEnc(4)
+        self.pn_enc = PNPP_PointEnc(1)
         self.pt_head = DMLP(128, 64, 32, 1, DP)
         
     def forward(self, x):

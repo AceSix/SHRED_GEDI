@@ -118,7 +118,7 @@ class SplitNet(nn.Module):
     def __init__(self, num_clusters, DP, use_bn=True, match_mode='hung_os'):
         super(SplitNet, self).__init__()
 
-        self.pn_enc = PNPP_PointEnc(3, use_bn)
+        self.pn_enc = PNPP_PointEnc(0, use_bn)
         self.cluster_net = DSMLP(128, 64, num_clusters, DP)
 
         self.match_mode = match_mode

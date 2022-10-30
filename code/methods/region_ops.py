@@ -121,7 +121,7 @@ def find_nbs(pts, regs, gt_regs):
 
     nb_mat = torch.zeros((RS.shape[0], RS.shape[0]), dtype=torch.bool, device = RS.device)
 
-    BS = 100
+    BS = 4
     
     for i in range(0,RS.shape[0], BS):
         for j in range(0, RS.shape[0], BS):

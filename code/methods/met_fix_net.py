@@ -142,7 +142,7 @@ class Dataset:
                 
                     b_samps = (b_samps * scale) + noise    
                 
-            yield b_samps, b_labels
+            yield torch.cat([b_samps[..., :3], b_samps[..., -1:]], -1), b_labels
         
                    
             
@@ -307,7 +307,7 @@ class FIX_NET:
 
         arg_list = [
             ('-o', '--outpath', 'methods/fix_net/model_output', str),
-            ('-en', '--exp_name', None, str),
+            ('-en', '--exp_name', 'nonorm', str),
             ('-snp', '--shape_num_points', 100000, int),            
             ('-mnet', '--max_num_example_tries', 4, int),
             

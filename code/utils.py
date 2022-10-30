@@ -371,13 +371,19 @@ def init_model_run(args, model_type=None):
     random.seed(args.rd_seed)
     np.random.seed(args.rd_seed)
     torch.manual_seed(args.rd_seed)
+    directory = os.getcwd()
 
+    print(directory)
+
+    # os.mkdir(f'{args.outpath}')
     os.system(f'mkdir {args.outpath} > /dev/null 2>&1')
     
+    os.makedirs(f'{args.outpath}/{args.exp_name}', exist_ok=True)
     os.system(f'mkdir {args.outpath}/{args.exp_name} > /dev/null 2>&1')
 
     if model_type is not None:
         args.exp_name += f'/{model_type}'
+        os.makedirs(f'{args.outpath}/{args.exp_name}', exist_ok=True)
         os.system(f'mkdir {args.outpath}/{args.exp_name} > /dev/null 2>&1')
 
     with open(f"{args.outpath}/{args.exp_name}/config.txt", "w") as f:
@@ -392,6 +398,10 @@ def init_model_run(args, model_type=None):
     os.system(f'mkdir {args.outpath}/{args.exp_name}/plots/train > /dev/null 2>&1')
     os.system(f'mkdir {args.outpath}/{args.exp_name}/plots/eval > /dev/null 2>&1')        
     os.system(f'mkdir {args.outpath}/{args.exp_name}/models > /dev/null 2>&1')
+    os.makedirs(f'{args.outpath}/{args.exp_name}/plots', exist_ok=True)
+    os.makedirs(f'{args.outpath}/{args.exp_name}/plots/train', exist_ok=True)
+    os.makedirs(f'{args.outpath}/{args.exp_name}/plots/eval', exist_ok=True)
+    os.makedirs(f'{args.outpath}/{args.exp_name}/models', exist_ok=True)
 
 def log_print(s, args, fn='log'):
     of = f"{args.outpath}/{args.exp_name}/{fn}.txt"

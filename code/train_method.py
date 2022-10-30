@@ -11,7 +11,7 @@ MAX = None
 
 class TrainShapeData:
     def __init__(self, ind, cat):
-        data = json.load(open(f'../data/{cat}/{ind}/data.json'))
+        data = json.load(open(f'G:/GEDI_data/preprocessed_3d/{cat}/{ind}/data.json'))
         regions = [utils.loadAndCleanObj(p) for p in data['regions']]        
         part_ids = np.array(data['part_ids'])
         self.ind = ind
@@ -20,14 +20,21 @@ class TrainShapeData:
         self.json_data = data
         
 def load_data(cat, split, split_path):
+    
     inds = json.load(open(f'{split_path}/{cat}/split.json'))[split]
 
     if MAX is not None:
         inds = inds[:MAX]
     
-    data = [
-        TrainShapeData(ind, cat) for ind in tqdm(inds)
-    ]
+    data = [ ]
+
+    for ind in tqdm(inds):
+        try:
+            tmp = TrainShapeData(ind, cat) 
+            data.append(tmp)
+        except:
+            pass
+    
 
     return data
     
@@ -86,10 +93,10 @@ def main(args):
 if __name__ == '__main__':
 
     arg_list = [
-        ('-mt', '--method', None,  str),        
-        ('-en', '--name', None, str),
+        ('-mt', '--method', 'merge_net',  str),        
+        ('-en', '--name', 'nonorm', str),
         ('-mx', '--max', None, int),
-        ('-cats', '--cats', None, str),
+        ('-cats', '--cats', 'chair', str),
         ('-sp', '--split_path', 'data_splits', str)
     ]        
 

@@ -1,0 +1,2 @@
+CMD: c:\Brown\Research\GEDI\SHRED_GEDI\code\train_method.py
+ARGS: Namespace(outpath='methods/split_net/model_output', exp_name='nonorm/split_net', num_points=100000, init_split_mode='fps', init_num_blocks=64, sn_num_points_per_block=512, sn_min_clusters=1, sn_num_clusters=10, match_mode='hung_os', rd_seed=42, batch_size=24, epochs=1000, lr=0.001, print_per=1, es_patience=20, es_threshold=0.001, use_bn='y', dropout=0.1, scale_weight=0.0, noise_weight=0.0)

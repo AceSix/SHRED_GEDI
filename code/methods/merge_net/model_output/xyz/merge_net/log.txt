@@ -1,0 +1,392 @@
+
+Iter 53 (16.0 / 16.0):
+Train results: 
+    Loss : 0.6958
+    Accuracy : 0.5477
+    Precision : 0.5676
+    Recall : 0.5707
+
+Val results: 
+    Loss : 0.6828
+    Accuracy : 0.595
+    Precision : 0.5934
+    Recall : 1.0
+
+
+Iter 53 (1195.1 / 1195.1):
+Train results: 
+    Loss : 0.6948
+    Accuracy : 0.5519
+    Precision : 0.5718
+    Recall : 0.5734
+
+Val results: 
+    Loss : 0.684
+    Accuracy : 0.5909
+    Precision : 0.5909
+    Recall : 1.0
+
+
+Iter 118 (6.1 / 1202.2):
+Train results: 
+    Loss : 0.6838
+    Accuracy : 0.5735
+    Precision : 0.5954
+    Recall : 0.8374
+
+Val results: 
+    Loss : 0.691
+    Accuracy : 0.5778
+    Precision : 0.5778
+    Recall : 1.0
+
+
+Iter 53 (15.1 / 15.1):
+Train results: 
+    Loss : 0.6951
+    Accuracy : 0.5533
+    Precision : 0.573
+    Recall : 0.5761
+
+Val results: 
+    Loss : 0.6845
+    Accuracy : 0.5826
+    Precision : 0.5882
+    Recall : 0.979
+
+
+Iter 118 (6.2 / 22.1):
+Train results: 
+    Loss : 0.6819
+    Accuracy : 0.5664
+    Precision : 0.5929
+    Recall : 0.8171
+
+Val results: 
+    Loss : 0.6924
+    Accuracy : 0.5778
+    Precision : 0.5778
+    Recall : 1.0
+
+
+Iter 178 (10.4 / 33.0):
+Train results: 
+    Loss : 0.6896
+    Accuracy : 0.5515
+    Precision : 0.5529
+    Recall : 0.768
+
+Val results: 
+    Loss : 0.6862
+    Accuracy : 0.5314
+    Precision : 0.4737
+    Recall : 0.7692
+
+
+Iter 251 (8.3 / 41.7):
+Train results: 
+    Loss : 0.6983
+    Accuracy : 0.5285
+    Precision : 0.5298
+    Recall : 0.5195
+
+Val results: 
+    Loss : 0.6867
+    Accuracy : 0.5629
+    Precision : 0.8
+    Recall : 0.16
+
+
+Iter 319 (10.0 / 52.1):
+Train results: 
+    Loss : 0.6912
+    Accuracy : 0.5318
+    Precision : 0.5455
+    Recall : 0.7368
+
+Val results: 
+    Loss : 0.7091
+    Accuracy : 0.4758
+    Precision : 0.0
+    Recall : 0.0
+
+
+Iter 75 (12.7 / 12.7):
+Train results: 
+    Loss : 0.6845
+    Accuracy : 0.5683
+    Precision : 0.6009
+    Recall : 0.7996
+
+Val results: 
+    Loss : 0.7001
+    Accuracy : 0.5049
+    Precision : 0.5049
+    Recall : 1.0
+
+
+Iter 141 (7.5 / 21.2):
+Train results: 
+    Loss : 0.6731
+    Accuracy : 0.5922
+    Precision : 0.6047
+    Recall : 0.9188
+
+Val results: 
+    Loss : 0.6787
+    Accuracy : 0.6111
+    Precision : 0.6111
+    Recall : 1.0
+
+
+Iter 203 (7.1 / 28.7):
+Train results: 
+    Loss : 0.6942
+    Accuracy : 0.5
+    Precision : 0.4597
+    Recall : 0.5067
+
+Val results: 
+    Loss : 0.7362
+    Accuracy : 0.3908
+    Precision : 0.0
+    Recall : 0.0
+
+
+Iter 265 (7.5 / 36.6):
+Train results: 
+    Loss : 0.6976
+    Accuracy : 0.5565
+    Precision : 0.5818
+    Recall : 0.8189
+
+Val results: 
+    Loss : 0.6975
+    Accuracy : 0.3836
+    Precision : 0.4545
+    Recall : 0.0352
+
+
+Iter 324 (8.3 / 45.3):
+Train results: 
+    Loss : 0.6577
+    Accuracy : 0.5887
+    Precision : 0.6512
+    Recall : 0.6809
+
+Val results: 
+    Loss : 0.7624
+    Accuracy : 0.4648
+    Precision : 0.4648
+    Recall : 1.0
+
+
+Iter 388 (8.4 / 54.1):
+Train results: 
+    Loss : 0.7038
+    Accuracy : 0.5195
+    Precision : 0.5076
+    Recall : 0.5929
+
+Val results: 
+    Loss : 0.6993
+    Accuracy : 0.4789
+    Precision : 0.7297
+    Recall : 0.1636
+
+
+Iter 446 (8.0 / 62.5):
+Train results: 
+    Loss : 0.6661
+    Accuracy : 0.602
+    Precision : 0.6149
+    Recall : 0.8951
+
+Val results: 
+    Loss : 0.677
+    Accuracy : 0.6077
+    Precision : 0.621
+    Recall : 0.5833
+
+
+Iter 516 (8.6 / 71.5):
+Train results: 
+    Loss : 0.6786
+    Accuracy : 0.59
+    Precision : 0.5967
+    Recall : 0.862
+
+Val results: 
+    Loss : 0.696
+    Accuracy : 0.5041
+    Precision : 0.8478
+    Recall : 0.2549
+
+
+Iter 576 (7.5 / 79.4):
+Train results: 
+    Loss : 0.6871
+    Accuracy : 0.5497
+    Precision : 0.5672
+    Recall : 0.8328
+
+Val results: 
+    Loss : 0.6885
+    Accuracy : 0.5972
+    Precision : 0.6582
+    Recall : 0.4727
+
+
+Iter 650 (8.4 / 88.2):
+Train results: 
+    Loss : 0.6614
+    Accuracy : 0.5821
+    Precision : 0.6311
+    Recall : 0.629
+
+Val results: 
+    Loss : 0.6192
+    Accuracy : 0.6344
+    Precision : 0.64
+    Recall : 0.9863
+
+
+Iter 709 (8.6 / 97.4):
+Train results: 
+    Loss : 0.6781
+    Accuracy : 0.5819
+    Precision : 0.5813
+    Recall : 0.7942
+
+Val results: 
+    Loss : 0.7356
+    Accuracy : 0.3421
+    Precision : 0.0
+    Recall : 0.0
+
+
+Iter 766 (7.1 / 104.9):
+Train results: 
+    Loss : 0.6668
+    Accuracy : 0.5896
+    Precision : 0.6351
+    Recall : 0.8413
+
+Val results: 
+    Loss : 0.6661
+    Accuracy : 0.5612
+    Precision : 0.5636
+    Recall : 0.9925
+
+
+Iter 825 (7.8 / 113.1):
+Train results: 
+    Loss : 0.6732
+    Accuracy : 0.5759
+    Precision : 0.5559
+    Recall : 0.7731
+
+Val results: 
+    Loss : 0.6668
+    Accuracy : 0.6104
+    Precision : 0.9412
+    Recall : 0.1524
+
+
+Iter 883 (6.5 / 120.0):
+Train results: 
+    Loss : 0.668
+    Accuracy : 0.5912
+    Precision : 0.6067
+    Recall : 0.6429
+
+Val results: 
+    Loss : 0.6767
+    Accuracy : 0.5455
+    Precision : 1.0
+    Recall : 0.0116
+
+
+Iter 943 (7.6 / 128.0):
+Train results: 
+    Loss : 0.6787
+    Accuracy : 0.5864
+    Precision : 0.6062
+    Recall : 0.5502
+
+Val results: 
+    Loss : 0.6893
+    Accuracy : 0.5592
+    Precision : 0.5638
+    Recall : 0.75
+
+
+Iter 1008 (6.5 / 134.9):
+Train results: 
+    Loss : 0.6561
+    Accuracy : 0.6036
+    Precision : 0.627
+    Recall : 0.8657
+
+Val results: 
+    Loss : 0.714
+    Accuracy : 0.46
+    Precision : 0.4588
+    Recall : 0.9674
+
+
+Iter 1063 (8.2 / 143.4):
+Train results: 
+    Loss : 0.6726
+    Accuracy : 0.6015
+    Precision : 0.5368
+    Recall : 0.338
+
+Val results: 
+    Loss : 0.7043
+    Accuracy : 0.4731
+    Precision : 0.5408
+    Recall : 0.3419
+
+
+Iter 1130 (8.3 / 152.1):
+Train results: 
+    Loss : 0.6494
+    Accuracy : 0.6282
+    Precision : 0.6452
+    Recall : 0.8262
+
+Val results: 
+    Loss : 0.5999
+    Accuracy : 0.6514
+    Precision : 0.6703
+    Recall : 0.8841
+
+
+Iter 1196 (7.8 / 160.3):
+Train results: 
+    Loss : 0.6625
+    Accuracy : 0.6038
+    Precision : 0.6271
+    Recall : 0.7617
+
+Val results: 
+    Loss : 0.7373
+    Accuracy : 0.5018
+    Precision : 0.5179
+    Recall : 0.9028
+
+
+Iter 1272 (8.9 / 169.6):
+Train results: 
+    Loss : 0.6638
+    Accuracy : 0.5934
+    Precision : 0.6263
+    Recall : 0.7864
+
+Val results: 
+    Loss : 0.635
+    Accuracy : 0.6519
+    Precision : 0.6519
+    Recall : 1.0
+

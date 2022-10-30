@@ -1,0 +1,17 @@
+
+Epoch 0:
+
+Epoch 0:
+
+Epoch 0:
+Train results: 
+    Loss : 0.6244
+    Accuracy : 0.833
+
+Val results: 
+    Loss : 0.6075
+    Accuracy : 0.7921
+
+    Time = 51.823272943496704
+
+Epoch 1:

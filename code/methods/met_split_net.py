@@ -133,7 +133,7 @@ def model_train_batch(batch, net, opt):
     
     br = {}
 
-    preds = net(samps)
+    preds = net(samps[..., :3])
     
     loss, acc = net.loss(preds, segments)
     
@@ -273,7 +273,7 @@ class SPLIT_NET:
 
         arg_list = [
             ('-o', '--outpath', 'methods/split_net/model_output', str),
-            ('-en', '--exp_name', None, str),
+            ('-en', '--exp_name', 'nonorm', str),
             ('-np', '--num_points', 100000, int),
                        
             ('-ism', '--init_split_mode', 'fps', str),
