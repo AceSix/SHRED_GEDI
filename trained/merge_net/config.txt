@@ -1,0 +1,2 @@
+CMD: train_method.py --method merge_net --name nonorm --exp_name xyz
+ARGS: Namespace(batch_size=8, dropout=0.0, es_patience=200000, es_threshold=0.0005, exp_name='xyz/merge_net', lr=0.0001, max_iters=10000000, max_num_example_tries=3, mn_context=0.1, mn_part_num_points=512, noise_weight=0.0, num_samples_per_iter=10, num_to_eval=150, outpath='methods/merge_net/model_output', presamp='y', print_per=1000, ravg_window=10, rd_seed=42, scale_weight=0.0, sched='y', sched_factor=0.25, sched_patience=50, shape_num_points=100000, use_bn='y')

@@ -4,7 +4,7 @@
 ###   @Author: AceSix
 ###   @Date: 2022-10-27 12:35:11
 ###   @LastEditors: AceSix
-###   @LastEditTime: 2022-10-27 14:20:02
+###   @LastEditTime: 2022-11-08 11:09:56
 ###   @Copyright (C) 2022 Brown U. All rights reserved.
 ###################################################################
 import torch
@@ -58,12 +58,10 @@ def split_mesh_fps(args, mesh):
     return samps, utils.clean_regions(clusters)
 
 
-def split_points_fps(args, mesh):
+def split_points_fps(args, points):
         
-    psamps, _, _ = utils.sample_surface(
-        mesh[1], mesh[0].unsqueeze(0), args.num_points
-    )
-                
+    psamps = points   
+    
     c_inds = fps(psamps.unsqueeze(0), args.init_num_blocks)[0].long()
     centers = psamps[c_inds]        
 

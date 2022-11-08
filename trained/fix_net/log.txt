@@ -1,0 +1,1708 @@
+
+Epoch 0:
+
+Epoch 0:
+Train results: 
+    Loss : 0.3605
+    Accuracy : 0.8486
+
+Val results: 
+    Loss : 0.2848
+    Accuracy : 0.8925
+
+    Time = 526.5067863464355
+
+Epoch 1:
+Train results: 
+    Loss : 0.2838
+    Accuracy : 0.8931
+
+Val results: 
+    Loss : 0.2758
+    Accuracy : 0.8927
+
+    Time = 519.1823592185974
+
+Epoch 2:
+Train results: 
+    Loss : 0.267
+    Accuracy : 0.8989
+
+Val results: 
+    Loss : 0.2615
+    Accuracy : 0.8983
+
+    Time = 518.7038698196411
+
+Epoch 3:
+Train results: 
+    Loss : 0.2585
+    Accuracy : 0.9015
+
+Val results: 
+    Loss : 0.2875
+    Accuracy : 0.8809
+
+    Time = 550.3749623298645
+
+Epoch 4:
+Train results: 
+    Loss : 0.2541
+    Accuracy : 0.9033
+
+Val results: 
+    Loss : 0.2475
+    Accuracy : 0.9052
+
+    Time = 553.9462990760803
+
+Epoch 5:
+Train results: 
+    Loss : 0.2503
+    Accuracy : 0.905
+
+Val results: 
+    Loss : 0.2574
+    Accuracy : 0.9008
+
+    Time = 542.4797775745392
+
+Epoch 6:
+Train results: 
+    Loss : 0.2476
+    Accuracy : 0.9061
+
+Val results: 
+    Loss : 0.2484
+    Accuracy : 0.9048
+
+    Time = 571.0742802619934
+
+Epoch 7:
+Train results: 
+    Loss : 0.2441
+    Accuracy : 0.907
+
+Val results: 
+    Loss : 0.2417
+    Accuracy : 0.9076
+
+    Time = 537.1906099319458
+
+Epoch 8:
+Train results: 
+    Loss : 0.2401
+    Accuracy : 0.9088
+
+Val results: 
+    Loss : 0.2419
+    Accuracy : 0.9063
+
+    Time = 531.4828870296478
+
+Epoch 9:
+Train results: 
+    Loss : 0.2364
+    Accuracy : 0.9102
+
+Val results: 
+    Loss : 0.2446
+    Accuracy : 0.907
+
+    Time = 556.920850276947
+
+Epoch 10:
+Train results: 
+    Loss : 0.2333
+    Accuracy : 0.9114
+
+Val results: 
+    Loss : 0.2491
+    Accuracy : 0.9064
+
+    Time = 528.7974855899811
+
+Epoch 11:
+Train results: 
+    Loss : 0.2312
+    Accuracy : 0.9119
+
+Val results: 
+    Loss : 0.2401
+    Accuracy : 0.9066
+
+    Time = 518.5830054283142
+
+Epoch 12:
+Train results: 
+    Loss : 0.2283
+    Accuracy : 0.9131
+
+Val results: 
+    Loss : 0.2385
+    Accuracy : 0.908
+
+    Time = 561.9832029342651
+
+Epoch 13:
+Train results: 
+    Loss : 0.2252
+    Accuracy : 0.9142
+
+Val results: 
+    Loss : 0.2401
+    Accuracy : 0.909
+
+    Time = 555.9592311382294
+
+Epoch 14:
+Train results: 
+    Loss : 0.2227
+    Accuracy : 0.9147
+
+Val results: 
+    Loss : 0.2305
+    Accuracy : 0.9116
+
+    Time = 514.2669098377228
+
+Epoch 15:
+Train results: 
+    Loss : 0.2187
+    Accuracy : 0.9163
+
+Val results: 
+    Loss : 0.2229
+    Accuracy : 0.9136
+
+    Time = 529.2668783664703
+
+Epoch 16:
+Train results: 
+    Loss : 0.215
+    Accuracy : 0.9177
+
+Val results: 
+    Loss : 0.2203
+    Accuracy : 0.9172
+
+    Time = 516.0035333633423
+
+Epoch 17:
+Train results: 
+    Loss : 0.211
+    Accuracy : 0.9191
+
+Val results: 
+    Loss : 0.2222
+    Accuracy : 0.9154
+
+    Time = 529.7280111312866
+
+Epoch 18:
+Train results: 
+    Loss : 0.2073
+    Accuracy : 0.9203
+
+Val results: 
+    Loss : 0.2173
+    Accuracy : 0.9171
+
+    Time = 578.42946600914
+
+Epoch 19:
+Train results: 
+    Loss : 0.2064
+    Accuracy : 0.9205
+
+Val results: 
+    Loss : 0.214
+    Accuracy : 0.918
+
+    Time = 526.5855963230133
+
+Epoch 20:
+Train results: 
+    Loss : 0.203
+    Accuracy : 0.9218
+
+Val results: 
+    Loss : 0.2069
+    Accuracy : 0.9197
+
+    Time = 526.7850079536438
+
+Epoch 21:
+Train results: 
+    Loss : 0.1995
+    Accuracy : 0.9233
+
+Val results: 
+    Loss : 0.2033
+    Accuracy : 0.9214
+
+    Time = 569.8257765769958
+
+Epoch 22:
+Train results: 
+    Loss : 0.1964
+    Accuracy : 0.9243
+
+Val results: 
+    Loss : 0.2015
+    Accuracy : 0.9221
+
+    Time = 522.2688279151917
+
+Epoch 23:
+Train results: 
+    Loss : 0.1931
+    Accuracy : 0.9259
+
+Val results: 
+    Loss : 0.1994
+    Accuracy : 0.9225
+
+    Time = 530.7081229686737
+
+Epoch 24:
+Train results: 
+    Loss : 0.1921
+    Accuracy : 0.9259
+
+Val results: 
+    Loss : 0.1962
+    Accuracy : 0.9239
+
+    Time = 562.4086966514587
+
+Epoch 25:
+Train results: 
+    Loss : 0.1894
+    Accuracy : 0.927
+
+Val results: 
+    Loss : 0.1951
+    Accuracy : 0.9246
+
+    Time = 536.4933366775513
+
+Epoch 26:
+Train results: 
+    Loss : 0.1869
+    Accuracy : 0.928
+
+Val results: 
+    Loss : 0.2142
+    Accuracy : 0.9134
+
+    Time = 503.21362042427063
+
+Epoch 27:
+Train results: 
+    Loss : 0.1849
+    Accuracy : 0.9286
+
+Val results: 
+    Loss : 0.1986
+    Accuracy : 0.9242
+
+    Time = 532.2232069969177
+
+Epoch 28:
+Train results: 
+    Loss : 0.1843
+    Accuracy : 0.9287
+
+Val results: 
+    Loss : 0.1945
+    Accuracy : 0.9261
+
+    Time = 529.3082730770111
+
+Epoch 29:
+Train results: 
+    Loss : 0.1822
+    Accuracy : 0.9296
+
+Val results: 
+    Loss : 0.234
+    Accuracy : 0.9043
+
+    Time = 546.4279778003693
+
+Epoch 30:
+Train results: 
+    Loss : 0.1806
+    Accuracy : 0.9305
+
+Val results: 
+    Loss : 0.1953
+    Accuracy : 0.9267
+
+    Time = 552.1352548599243
+
+Epoch 31:
+Train results: 
+    Loss : 0.1788
+    Accuracy : 0.9311
+
+Val results: 
+    Loss : 0.1873
+    Accuracy : 0.9288
+
+    Time = 512.8680987358093
+
+Epoch 32:
+Train results: 
+    Loss : 0.177
+    Accuracy : 0.9317
+
+Val results: 
+    Loss : 0.192
+    Accuracy : 0.9264
+
+    Time = 522.9087634086609
+
+Epoch 33:
+Train results: 
+    Loss : 0.1751
+    Accuracy : 0.9327
+
+Val results: 
+    Loss : 0.1853
+    Accuracy : 0.9283
+
+    Time = 551.073733329773
+
+Epoch 34:
+Train results: 
+    Loss : 0.1735
+    Accuracy : 0.9331
+
+Val results: 
+    Loss : 0.1839
+    Accuracy : 0.9294
+
+    Time = 539.3338072299957
+
+Epoch 35:
+Train results: 
+    Loss : 0.1721
+    Accuracy : 0.9337
+
+Val results: 
+    Loss : 0.1819
+    Accuracy : 0.9295
+
+    Time = 509.5945818424225
+
+Epoch 36:
+Train results: 
+    Loss : 0.172
+    Accuracy : 0.9336
+
+Val results: 
+    Loss : 0.1785
+    Accuracy : 0.9318
+
+    Time = 533.3071553707123
+
+Epoch 37:
+Train results: 
+    Loss : 0.1697
+    Accuracy : 0.9346
+
+Val results: 
+    Loss : 0.1789
+    Accuracy : 0.9317
+
+    Time = 530.5619852542877
+
+Epoch 38:
+Train results: 
+    Loss : 0.1691
+    Accuracy : 0.9348
+
+Val results: 
+    Loss : 0.1779
+    Accuracy : 0.9315
+
+    Time = 556.8789706230164
+
+Epoch 39:
+Train results: 
+    Loss : 0.1682
+    Accuracy : 0.935
+
+Val results: 
+    Loss : 0.1796
+    Accuracy : 0.9309
+
+    Time = 515.6764297485352
+
+Epoch 40:
+Train results: 
+    Loss : 0.1665
+    Accuracy : 0.9358
+
+Val results: 
+    Loss : 0.1813
+    Accuracy : 0.9303
+
+    Time = 531.4255955219269
+
+Epoch 41:
+Train results: 
+    Loss : 0.1657
+    Accuracy : 0.9361
+
+Val results: 
+    Loss : 0.177
+    Accuracy : 0.9309
+
+    Time = 533.905526638031
+
+Epoch 42:
+Train results: 
+    Loss : 0.1648
+    Accuracy : 0.9364
+
+Val results: 
+    Loss : 0.176
+    Accuracy : 0.932
+
+    Time = 546.4915111064911
+
+Epoch 43:
+Train results: 
+    Loss : 0.165
+    Accuracy : 0.9362
+
+Val results: 
+    Loss : 0.1759
+    Accuracy : 0.9333
+
+    Time = 526.6355991363525
+
+Epoch 44:
+Train results: 
+    Loss : 0.1625
+    Accuracy : 0.9374
+
+Val results: 
+    Loss : 0.1819
+    Accuracy : 0.9294
+
+    Time = 542.5894920825958
+
+Epoch 45:
+Train results: 
+    Loss : 0.1626
+    Accuracy : 0.9374
+
+Val results: 
+    Loss : 0.1747
+    Accuracy : 0.9329
+
+    Time = 574.0947852134705
+
+Epoch 46:
+Train results: 
+    Loss : 0.1614
+    Accuracy : 0.9377
+
+Val results: 
+    Loss : 0.1729
+    Accuracy : 0.9334
+
+    Time = 523.3965535163879
+
+Epoch 47:
+Train results: 
+    Loss : 0.1607
+    Accuracy : 0.938
+
+Val results: 
+    Loss : 0.1694
+    Accuracy : 0.9348
+
+    Time = 525.7052030563354
+
+Epoch 48:
+Train results: 
+    Loss : 0.1608
+    Accuracy : 0.938
+
+Val results: 
+    Loss : 0.1734
+    Accuracy : 0.933
+
+    Time = 517.6816041469574
+
+Epoch 49:
+Train results: 
+    Loss : 0.1595
+    Accuracy : 0.9384
+
+Val results: 
+    Loss : 0.169
+    Accuracy : 0.9353
+
+    Time = 542.1375260353088
+
+Epoch 50:
+Train results: 
+    Loss : 0.1582
+    Accuracy : 0.939
+
+Val results: 
+    Loss : 0.1679
+    Accuracy : 0.9355
+
+    Time = 561.1947636604309
+
+Epoch 51:
+Train results: 
+    Loss : 0.1581
+    Accuracy : 0.9393
+
+Val results: 
+    Loss : 0.1754
+    Accuracy : 0.9342
+
+    Time = 550.934161901474
+
+Epoch 52:
+Train results: 
+    Loss : 0.1563
+    Accuracy : 0.9398
+
+Val results: 
+    Loss : 0.1699
+    Accuracy : 0.9349
+
+    Time = 562.1836667060852
+
+Epoch 53:
+Train results: 
+    Loss : 0.1563
+    Accuracy : 0.9398
+
+Val results: 
+    Loss : 0.1696
+    Accuracy : 0.9346
+
+    Time = 549.0978097915649
+
+Epoch 54:
+Train results: 
+    Loss : 0.1551
+    Accuracy : 0.9402
+
+Val results: 
+    Loss : 0.1711
+    Accuracy : 0.9346
+
+    Time = 540.2489864826202
+
+Epoch 55:
+Train results: 
+    Loss : 0.1557
+    Accuracy : 0.94
+
+Val results: 
+    Loss : 0.1738
+    Accuracy : 0.9319
+
+    Time = 519.4325935840607
+
+Epoch 56:
+Train results: 
+    Loss : 0.1548
+    Accuracy : 0.9403
+
+Val results: 
+    Loss : 0.1691
+    Accuracy : 0.9345
+
+    Time = 544.2896723747253
+
+Epoch 57:
+Train results: 
+    Loss : 0.153
+    Accuracy : 0.9411
+
+Val results: 
+    Loss : 0.1636
+    Accuracy : 0.9373
+
+    Time = 578.3077125549316
+
+Epoch 58:
+Train results: 
+    Loss : 0.1543
+    Accuracy : 0.9403
+
+Val results: 
+    Loss : 0.1659
+    Accuracy : 0.9355
+
+    Time = 532.3221011161804
+
+Epoch 59:
+Train results: 
+    Loss : 0.1538
+    Accuracy : 0.9408
+
+Val results: 
+    Loss : 0.1649
+    Accuracy : 0.9365
+
+    Time = 523.5045123100281
+
+Epoch 60:
+Train results: 
+    Loss : 0.152
+    Accuracy : 0.9415
+
+Val results: 
+    Loss : 0.1621
+    Accuracy : 0.9379
+
+    Time = 570.8768494129181
+
+Epoch 61:
+Train results: 
+    Loss : 0.1519
+    Accuracy : 0.9415
+
+Val results: 
+    Loss : 0.1647
+    Accuracy : 0.9385
+
+    Time = 538.3221707344055
+
+Epoch 62:
+Train results: 
+    Loss : 0.1518
+    Accuracy : 0.9417
+
+Val results: 
+    Loss : 0.1627
+    Accuracy : 0.9373
+
+    Time = 506.41883301734924
+
+Epoch 63:
+Train results: 
+    Loss : 0.1494
+    Accuracy : 0.9425
+
+Val results: 
+    Loss : 0.1653
+    Accuracy : 0.9375
+
+    Time = 523.4486751556396
+
+Epoch 64:
+Train results: 
+    Loss : 0.1492
+    Accuracy : 0.9425
+
+Val results: 
+    Loss : 0.1695
+    Accuracy : 0.9373
+
+    Time = 543.0716168880463
+
+Epoch 65:
+Train results: 
+    Loss : 0.1506
+    Accuracy : 0.9419
+
+Val results: 
+    Loss : 0.1606
+    Accuracy : 0.938
+
+    Time = 538.6222701072693
+
+Epoch 66:
+Train results: 
+    Loss : 0.149
+    Accuracy : 0.9424
+
+Val results: 
+    Loss : 0.1601
+    Accuracy : 0.9382
+
+    Time = 543.5498456954956
+
+Epoch 67:
+Train results: 
+    Loss : 0.1484
+    Accuracy : 0.9429
+
+Val results: 
+    Loss : 0.1617
+    Accuracy : 0.938
+
+    Time = 543.9439961910248
+
+Epoch 68:
+Train results: 
+    Loss : 0.1479
+    Accuracy : 0.9431
+
+Val results: 
+    Loss : 0.1619
+    Accuracy : 0.9386
+
+    Time = 555.8125169277191
+
+Epoch 69:
+Train results: 
+    Loss : 0.1483
+    Accuracy : 0.9429
+
+Val results: 
+    Loss : 0.1614
+    Accuracy : 0.9373
+
+    Time = 545.7063238620758
+
+Epoch 70:
+Train results: 
+    Loss : 0.1475
+    Accuracy : 0.9432
+
+Val results: 
+    Loss : 0.1586
+    Accuracy : 0.9388
+
+    Time = 539.1462597846985
+
+Epoch 71:
+Train results: 
+    Loss : 0.1475
+    Accuracy : 0.9431
+
+Val results: 
+    Loss : 0.1606
+    Accuracy : 0.9382
+
+    Time = 546.4547643661499
+
+Epoch 72:
+Train results: 
+    Loss : 0.1467
+    Accuracy : 0.9437
+
+Val results: 
+    Loss : 0.1558
+    Accuracy : 0.9399
+
+    Time = 547.1175663471222
+
+Epoch 73:
+Train results: 
+    Loss : 0.1455
+    Accuracy : 0.9441
+
+Val results: 
+    Loss : 0.1577
+    Accuracy : 0.9392
+
+    Time = 528.7552616596222
+
+Epoch 74:
+Train results: 
+    Loss : 0.1456
+    Accuracy : 0.9439
+
+Val results: 
+    Loss : 0.1626
+    Accuracy : 0.9373
+
+    Time = 547.9204902648926
+
+Epoch 75:
+Train results: 
+    Loss : 0.1449
+    Accuracy : 0.944
+
+Val results: 
+    Loss : 0.1583
+    Accuracy : 0.9395
+
+    Time = 555.5517220497131
+
+Epoch 76:
+Train results: 
+    Loss : 0.1435
+    Accuracy : 0.9448
+
+Val results: 
+    Loss : 0.1541
+    Accuracy : 0.9408
+
+    Time = 521.7997515201569
+
+Epoch 77:
+Train results: 
+    Loss : 0.1433
+    Accuracy : 0.9447
+
+Val results: 
+    Loss : 0.1576
+    Accuracy : 0.9398
+
+    Time = 511.03923177719116
+
+Epoch 78:
+Train results: 
+    Loss : 0.143
+    Accuracy : 0.9449
+
+Val results: 
+    Loss : 0.1562
+    Accuracy : 0.9397
+
+    Time = 549.8564727306366
+
+Epoch 79:
+Train results: 
+    Loss : 0.1435
+    Accuracy : 0.9446
+
+Val results: 
+    Loss : 0.1559
+    Accuracy : 0.9403
+
+    Time = 550.0772886276245
+
+Epoch 80:
+Train results: 
+    Loss : 0.1432
+    Accuracy : 0.9448
+
+Val results: 
+    Loss : 0.1558
+    Accuracy : 0.9405
+
+    Time = 525.8336963653564
+
+Epoch 81:
+Train results: 
+    Loss : 0.1418
+    Accuracy : 0.9454
+
+Val results: 
+    Loss : 0.1545
+    Accuracy : 0.941
+
+    Time = 525.3177402019501
+
+Epoch 82:
+Train results: 
+    Loss : 0.1427
+    Accuracy : 0.945
+
+Val results: 
+    Loss : 0.1546
+    Accuracy : 0.9404
+
+    Time = 549.2151520252228
+
+Epoch 83:
+Train results: 
+    Loss : 0.1421
+    Accuracy : 0.9452
+
+Val results: 
+    Loss : 0.1551
+    Accuracy : 0.9402
+
+    Time = 536.101735830307
+
+Epoch 84:
+Train results: 
+    Loss : 0.1415
+    Accuracy : 0.9454
+
+Val results: 
+    Loss : 0.1571
+    Accuracy : 0.9398
+
+    Time = 527.0060555934906
+
+Epoch 85:
+Train results: 
+    Loss : 0.1412
+    Accuracy : 0.9456
+
+Val results: 
+    Loss : 0.1563
+    Accuracy : 0.9396
+
+    Time = 539.7029767036438
+
+Epoch 86:
+Train results: 
+    Loss : 0.1415
+    Accuracy : 0.9454
+
+Val results: 
+    Loss : 0.1535
+    Accuracy : 0.9418
+
+    Time = 549.2366099357605
+
+Epoch 87:
+Train results: 
+    Loss : 0.1402
+    Accuracy : 0.946
+
+Val results: 
+    Loss : 0.1552
+    Accuracy : 0.9401
+
+    Time = 570.638733625412
+
+Epoch 88:
+Train results: 
+    Loss : 0.1411
+    Accuracy : 0.9455
+
+Val results: 
+    Loss : 0.1558
+    Accuracy : 0.941
+
+    Time = 513.5056581497192
+
+Epoch 89:
+Train results: 
+    Loss : 0.1395
+    Accuracy : 0.9462
+
+Val results: 
+    Loss : 0.1518
+    Accuracy : 0.9414
+
+    Time = 531.3543636798859
+
+Epoch 90:
+Train results: 
+    Loss : 0.1398
+    Accuracy : 0.9461
+
+Val results: 
+    Loss : 0.1511
+    Accuracy : 0.9418
+
+    Time = 573.1891961097717
+
+Epoch 91:
+Train results: 
+    Loss : 0.1388
+    Accuracy : 0.9465
+
+Val results: 
+    Loss : 0.1534
+    Accuracy : 0.9414
+
+    Time = 533.6455569267273
+
+Epoch 92:
+Train results: 
+    Loss : 0.1386
+    Accuracy : 0.9466
+
+Val results: 
+    Loss : 0.1548
+    Accuracy : 0.9402
+
+    Time = 536.3213896751404
+
+Epoch 93:
+Train results: 
+    Loss : 0.1375
+    Accuracy : 0.9468
+
+Val results: 
+    Loss : 0.1521
+    Accuracy : 0.9422
+
+    Time = 552.8440296649933
+
+Epoch 94:
+Train results: 
+    Loss : 0.1378
+    Accuracy : 0.9467
+
+Val results: 
+    Loss : 0.155
+    Accuracy : 0.9406
+
+    Time = 564.1812479496002
+
+Epoch 95:
+Train results: 
+    Loss : 0.1382
+    Accuracy : 0.9468
+
+Val results: 
+    Loss : 0.1531
+    Accuracy : 0.9411
+
+    Time = 540.1177291870117
+
+Epoch 96:
+Train results: 
+    Loss : 0.1379
+    Accuracy : 0.9468
+
+Val results: 
+    Loss : 0.1486
+    Accuracy : 0.9426
+
+    Time = 534.7584698200226
+
+Epoch 97:
+Train results: 
+    Loss : 0.1374
+    Accuracy : 0.9469
+
+Val results: 
+    Loss : 0.1499
+    Accuracy : 0.9421
+
+    Time = 565.4490160942078
+
+Epoch 98:
+Train results: 
+    Loss : 0.1374
+    Accuracy : 0.947
+
+Val results: 
+    Loss : 0.1527
+    Accuracy : 0.941
+
+    Time = 533.6292715072632
+
+Epoch 99:
+Train results: 
+    Loss : 0.1362
+    Accuracy : 0.9475
+
+Val results: 
+    Loss : 0.1542
+    Accuracy : 0.9412
+
+    Time = 522.6762449741364
+
+Epoch 100:
+Train results: 
+    Loss : 0.1368
+    Accuracy : 0.9471
+
+Val results: 
+    Loss : 0.1492
+    Accuracy : 0.9433
+
+    Time = 527.3393507003784
+
+Epoch 101:
+Train results: 
+    Loss : 0.136
+    Accuracy : 0.9477
+
+Val results: 
+    Loss : 0.1515
+    Accuracy : 0.9416
+
+    Time = 545.3405787944794
+
+Epoch 102:
+Train results: 
+    Loss : 0.1355
+    Accuracy : 0.9478
+
+Val results: 
+    Loss : 0.1499
+    Accuracy : 0.9423
+
+    Time = 562.8954260349274
+
+Epoch 103:
+Train results: 
+    Loss : 0.1353
+    Accuracy : 0.9479
+
+Val results: 
+    Loss : 0.1573
+    Accuracy : 0.9408
+
+    Time = 539.1543035507202
+
+Epoch 104:
+Train results: 
+    Loss : 0.1355
+    Accuracy : 0.9477
+
+Val results: 
+    Loss : 0.1504
+    Accuracy : 0.9414
+
+    Time = 532.7235591411591
+
+Epoch 105:
+Train results: 
+    Loss : 0.1348
+    Accuracy : 0.9478
+
+Val results: 
+    Loss : 0.1497
+    Accuracy : 0.9418
+
+    Time = 550.1710407733917
+
+Epoch 106:
+Train results: 
+    Loss : 0.1345
+    Accuracy : 0.9479
+
+Val results: 
+    Loss : 0.1517
+    Accuracy : 0.9419
+
+    Time = 552.4124376773834
+
+Epoch 107:
+Train results: 
+    Loss : 0.1348
+    Accuracy : 0.9479
+
+Val results: 
+    Loss : 0.1499
+    Accuracy : 0.9434
+
+    Time = 538.8905210494995
+
+Epoch 108:
+Train results: 
+    Loss : 0.1335
+    Accuracy : 0.9483
+
+Val results: 
+    Loss : 0.1503
+    Accuracy : 0.9427
+
+    Time = 535.9867804050446
+
+Epoch 109:
+Train results: 
+    Loss : 0.134
+    Accuracy : 0.9481
+
+Val results: 
+    Loss : 0.1471
+    Accuracy : 0.9442
+
+    Time = 572.3005800247192
+
+Epoch 110:
+Train results: 
+    Loss : 0.1336
+    Accuracy : 0.9484
+
+Val results: 
+    Loss : 0.1503
+    Accuracy : 0.9422
+
+    Time = 538.5465459823608
+
+Epoch 111:
+Train results: 
+    Loss : 0.1331
+    Accuracy : 0.9486
+
+Val results: 
+    Loss : 0.1541
+    Accuracy : 0.9411
+
+    Time = 520.5680873394012
+
+Epoch 112:
+Train results: 
+    Loss : 0.1333
+    Accuracy : 0.9485
+
+Val results: 
+    Loss : 0.1498
+    Accuracy : 0.9426
+
+    Time = 549.8845856189728
+
+Epoch 113:
+Train results: 
+    Loss : 0.1331
+    Accuracy : 0.9486
+
+Val results: 
+    Loss : 0.1464
+    Accuracy : 0.9438
+
+    Time = 572.527640581131
+
+Epoch 114:
+Train results: 
+    Loss : 0.133
+    Accuracy : 0.9487
+
+Val results: 
+    Loss : 0.1471
+    Accuracy : 0.9439
+
+    Time = 531.0615062713623
+
+Epoch 115:
+Train results: 
+    Loss : 0.1323
+    Accuracy : 0.9489
+
+Val results: 
+    Loss : 0.1496
+    Accuracy : 0.9429
+
+    Time = 537.3468101024628
+
+Epoch 116:
+Train results: 
+    Loss : 0.1325
+    Accuracy : 0.9487
+
+Val results: 
+    Loss : 0.151
+    Accuracy : 0.9423
+
+    Time = 577.9026861190796
+
+Epoch 117:
+Train results: 
+    Loss : 0.1314
+    Accuracy : 0.9492
+
+Val results: 
+    Loss : 0.1461
+    Accuracy : 0.944
+
+    Time = 529.740448474884
+
+Epoch 118:
+Train results: 
+    Loss : 0.1318
+    Accuracy : 0.9489
+
+Val results: 
+    Loss : 0.1471
+    Accuracy : 0.9441
+
+    Time = 522.1771020889282
+
+Epoch 119:
+Train results: 
+    Loss : 0.1322
+    Accuracy : 0.949
+
+Val results: 
+    Loss : 0.1473
+    Accuracy : 0.9432
+
+    Time = 538.5932374000549
+
+Epoch 120:
+Train results: 
+    Loss : 0.1316
+    Accuracy : 0.9492
+
+Val results: 
+    Loss : 0.1458
+    Accuracy : 0.944
+
+    Time = 579.0887248516083
+
+Epoch 121:
+Train results: 
+    Loss : 0.1302
+    Accuracy : 0.9496
+
+Val results: 
+    Loss : 0.1507
+    Accuracy : 0.9422
+
+    Time = 524.1459875106812
+
+Epoch 122:
+Train results: 
+    Loss : 0.1304
+    Accuracy : 0.9494
+
+Val results: 
+    Loss : 0.145
+    Accuracy : 0.9446
+
+    Time = 552.0104556083679
+
+Epoch 123:
+Train results: 
+    Loss : 0.1308
+    Accuracy : 0.9494
+
+Val results: 
+    Loss : 0.1432
+    Accuracy : 0.945
+
+    Time = 552.5160868167877
+
+Epoch 124:
+Train results: 
+    Loss : 0.1303
+    Accuracy : 0.9497
+
+Val results: 
+    Loss : 0.1436
+    Accuracy : 0.9447
+
+    Time = 565.9708201885223
+
+Epoch 125:
+Train results: 
+    Loss : 0.1302
+    Accuracy : 0.9496
+
+Val results: 
+    Loss : 0.1429
+    Accuracy : 0.9449
+
+    Time = 535.3831627368927
+
+Epoch 126:
+Train results: 
+    Loss : 0.13
+    Accuracy : 0.9498
+
+Val results: 
+    Loss : 0.1498
+    Accuracy : 0.9425
+
+    Time = 539.6787209510803
+
+Epoch 127:
+Train results: 
+    Loss : 0.1297
+    Accuracy : 0.9498
+
+Val results: 
+    Loss : 0.1443
+    Accuracy : 0.9453
+
+    Time = 567.7140758037567
+
+Epoch 128:
+Train results: 
+    Loss : 0.1292
+    Accuracy : 0.9501
+
+Val results: 
+    Loss : 0.148
+    Accuracy : 0.9432
+
+    Time = 544.6405034065247
+
+Epoch 129:
+Train results: 
+    Loss : 0.1287
+    Accuracy : 0.9503
+
+Val results: 
+    Loss : 0.1513
+    Accuracy : 0.9425
+
+    Time = 534.1332607269287
+
+Epoch 130:
+Train results: 
+    Loss : 0.1293
+    Accuracy : 0.95
+
+Val results: 
+    Loss : 0.1476
+    Accuracy : 0.9447
+
+    Time = 552.7284653186798
+
+Epoch 131:
+Train results: 
+    Loss : 0.1283
+    Accuracy : 0.9504
+
+Val results: 
+    Loss : 0.1457
+    Accuracy : 0.9439
+
+    Time = 537.5580515861511
+
+Epoch 132:
+Train results: 
+    Loss : 0.1281
+    Accuracy : 0.9504
+
+Val results: 
+    Loss : 0.1479
+    Accuracy : 0.9447
+
+    Time = 503.33750319480896
+
+Epoch 133:
+Train results: 
+    Loss : 0.128
+    Accuracy : 0.9504
+
+Val results: 
+    Loss : 0.1419
+    Accuracy : 0.9453
+
+    Time = 519.6872725486755
+
+Epoch 134:
+Train results: 
+    Loss : 0.1282
+    Accuracy : 0.9505
+
+Val results: 
+    Loss : 0.1471
+    Accuracy : 0.9437
+
+    Time = 575.5290546417236
+
+Epoch 135:
+Train results: 
+    Loss : 0.1289
+    Accuracy : 0.9501
+
+Val results: 
+    Loss : 0.1444
+    Accuracy : 0.9445
+
+    Time = 530.324414730072
+
+Epoch 136:
+Train results: 
+    Loss : 0.1279
+    Accuracy : 0.9504
+
+Val results: 
+    Loss : 0.1474
+    Accuracy : 0.9442
+
+    Time = 538.0915665626526
+
+Epoch 137:
+Train results: 
+    Loss : 0.1275
+    Accuracy : 0.9506
+
+Val results: 
+    Loss : 0.1452
+    Accuracy : 0.9448
+
+    Time = 537.8138077259064
+
+Epoch 138:
+Train results: 
+    Loss : 0.1284
+    Accuracy : 0.9503
+
+Val results: 
+    Loss : 0.1434
+    Accuracy : 0.9459
+
+    Time = 554.123557806015
+
+Epoch 139:
+Train results: 
+    Loss : 0.1271
+    Accuracy : 0.9508
+
+Val results: 
+    Loss : 0.1442
+    Accuracy : 0.9449
+
+    Time = 521.8269548416138
+
+Epoch 140:
+Train results: 
+    Loss : 0.128
+    Accuracy : 0.9505
+
+Val results: 
+    Loss : 0.1424
+    Accuracy : 0.9455
+
+    Time = 524.1977422237396
+
+Epoch 141:
+Train results: 
+    Loss : 0.1272
+    Accuracy : 0.9508
+
+Val results: 
+    Loss : 0.1465
+    Accuracy : 0.9444
+
+    Time = 557.2979681491852
+
+Epoch 142:
+Train results: 
+    Loss : 0.1273
+    Accuracy : 0.9508
+
+Val results: 
+    Loss : 0.1418
+    Accuracy : 0.9463
+
+    Time = 606.948043346405
+
+Epoch 143:
+Train results: 
+    Loss : 0.1265
+    Accuracy : 0.951
+
+Val results: 
+    Loss : 0.1422
+    Accuracy : 0.9453
+
+    Time = 557.1205241680145
+
+Epoch 144:
+Train results: 
+    Loss : 0.1255
+    Accuracy : 0.9513
+
+Val results: 
+    Loss : 0.1437
+    Accuracy : 0.9451
+
+    Time = 558.9999487400055
+
+Epoch 145:
+Train results: 
+    Loss : 0.1257
+    Accuracy : 0.9514
+
+Val results: 
+    Loss : 0.1416
+    Accuracy : 0.9456
+
+    Time = 591.2963812351227
+
+Epoch 146:
+Train results: 
+    Loss : 0.1257
+    Accuracy : 0.9512
+
+Val results: 
+    Loss : 0.146
+    Accuracy : 0.945
+
+    Time = 550.8402078151703
+
+Epoch 147:
+Train results: 
+    Loss : 0.1253
+    Accuracy : 0.9514
+
+Val results: 
+    Loss : 0.1427
+    Accuracy : 0.9456
+
+    Time = 546.7670278549194
+
+Epoch 148:
+Train results: 
+    Loss : 0.1253
+    Accuracy : 0.9516
+
+Val results: 
+    Loss : 0.1422
+    Accuracy : 0.946
+
+    Time = 547.1864445209503
+
+Epoch 149:
+Train results: 
+    Loss : 0.1251
+    Accuracy : 0.9515
+
+Val results: 
+    Loss : 0.1444
+    Accuracy : 0.9449
+
+    Time = 571.3818607330322
+
+Epoch 150:
+Train results: 
+    Loss : 0.1248
+    Accuracy : 0.9517
+
+Val results: 
+    Loss : 0.1427
+    Accuracy : 0.9446
+
+    Time = 557.2994847297668
+
+Epoch 151:
+Train results: 
+    Loss : 0.1251
+    Accuracy : 0.9516
+
+Val results: 
+    Loss : 0.1419
+    Accuracy : 0.9465
+
+    Time = 537.9824225902557
+
+Epoch 152:
+Train results: 
+    Loss : 0.1248
+    Accuracy : 0.9517
+
+Val results: 
+    Loss : 0.1483
+    Accuracy : 0.9446
+
+    Time = 596.4739470481873
+
+Epoch 153:
+Train results: 
+    Loss : 0.1248
+    Accuracy : 0.9516
+
+Val results: 
+    Loss : 0.1449
+    Accuracy : 0.9446
+
+    Time = 594.6660931110382
+
+Epoch 154:
+Train results: 
+    Loss : 0.1248
+    Accuracy : 0.9516
+
+Val results: 
+    Loss : 0.1439
+    Accuracy : 0.9447
+
+    Time = 582.741110086441
+Stopping Early

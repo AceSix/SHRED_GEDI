@@ -4,7 +4,7 @@
 ###   @Author: AceSix
 ###   @Date: 2022-10-27 20:54:44
 ###   @LastEditors: AceSix
-###   @LastEditTime: 2022-10-27 21:00:07
+###   @LastEditTime: 2022-11-08 11:20:25
 ###   @Copyright (C) 2022 Brown U. All rights reserved.
 ###################################################################
 # -*- coding:utf-8 -*-
@@ -57,6 +57,22 @@ def shred_mesh(mesh_name, out_name):
     
 if __name__ == '__main__':
     # shred_mesh(sys.argv[1], sys.argv[2])
-    shred_mesh('G:/Brown/Courses/CSCI1230-22F/Scenefiles/mesh/teapot.obj', './code/results/teapot_out')
+    shred_mesh('G:/GEDI_data/LaSelva_txt/La_Selva_05102019_001_825900_1154700.txt', 
+               './code/LaSelva_results/La_Selva_05102019_001_825900_1154700')
+               
+    shred_mesh('G:/GEDI_data/LaSelva_txt/La_Selva_05102019_001_825900_1154800.txt', 
+               './code/LaSelva_results/La_Selva_05102019_001_825900_1154800')
+               
+    shred_mesh('G:/GEDI_data/LaSelva_txt/La_Selva_05102019_001_825900_1154900.txt', 
+               './code/LaSelva_results/La_Selva_05102019_001_825900_1154900')
+               
+    shred_mesh('G:/GEDI_data/LaSelva_txt/La_Selva_05102019_001_825900_1155000.txt', 
+               './code/LaSelva_results/La_Selva_05102019_001_825900_1155000')
+               
+    shred_mesh('G:/GEDI_data/LaSelva_txt/La_Selva_05102019_001_825900_1155100.txt', 
+               './code/LaSelva_results/La_Selva_05102019_001_825900_1155100')
+               
+    shred_mesh('G:/GEDI_data/LaSelva_txt/La_Selva_05102019_001_825900_1155200.txt', 
+               './code/LaSelva_results/La_Selva_05102019_001_825900_1155200')
 
     

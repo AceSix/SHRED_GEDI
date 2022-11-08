@@ -26,13 +26,13 @@ class SRD:
             ('-inb', '--init_num_blocks', 64, int),            
             
             # SPLIT NET PARAMS
-            ('-sn_pth', '--sn_path', 'code/def_models/split_net.pt', str),
+            ('-sn_pth', '--sn_path', 'trained/split_net/models/split_net.pt', str),
             ('-sn_nppb', '--sn_num_points_per_block', 512, int),            
             ('-sn_nc', '--sn_num_clusters', 10, int),
             ('-mm', '--match_mode', 'hung_os', str), 
             
             # FIX NET PARAMS
-            ('-fn_pth', '--fn_path', 'C:/Brown/Research/GEDI/SHRED_GEDI/code/def_models/fix_net.pt', str),            
+            ('-fn_pth', '--fn_path', 'trained/fix_net/models/fix_net.pt', str),            
             ('-fn_ctx', '--fn_context', 0.1, float),
             ('-fn_pnp', '--fn_part_num_points', 2048, int),
             ('-fn_cte_mode', '--fn_cte_mode', 'bal', str),
@@ -47,7 +47,7 @@ class SRD:
 
             ('-mn_ctx', '--mn_context', 0.1, float),
             ('-mn_pnp', '--mn_part_num_points', 512, int),
-            ('-mn_pth', '--mn_path', 'C:/Brown/Research/GEDI/SHRED_GEDI/code/def_models/merge_net.pt', str),
+            ('-mn_pth', '--mn_path', 'trained/merge_net/models/merge_net.pt', str),
             ('-mn_ubn', '--mn_use_bn', 'y', str),
             ('-mn_mt', '--mn_merge_thresh', 0.5, float),
             
@@ -154,7 +154,7 @@ class SRD:
         with torch.no_grad():
             
             # self.samps, regions = init_split('points', self.args, data.mesh)
-            self.samps, regions = init_split('mesh', self.args, data.mesh)
+            self.samps, regions = init_split('points', self.args, data.verts)
 
             self.update_step(regions)
             

@@ -1,0 +1,2 @@
+CMD: train_method.py --method split_net --name nonorm --exp_name xyz
+ARGS: Namespace(batch_size=24, dropout=0.1, epochs=1000, es_patience=20, es_threshold=0.001, exp_name='xyz/split_net', init_num_blocks=64, init_split_mode='fps', lr=0.001, match_mode='hung_os', noise_weight=0.0, num_points=100000, outpath='methods/split_net/model_output', print_per=1, rd_seed=42, scale_weight=0.0, sn_min_clusters=1, sn_num_clusters=10, sn_num_points_per_block=512, use_bn='y')
